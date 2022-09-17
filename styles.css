@@ -1,0 +1,103 @@
+body {
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+}
+
+/* HERO SECTION */
+#athens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1555993539-1732b0258235?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-size: cover;
+  background-position: cover;
+  height: 100vh;
+}
+
+#athens h1,
+#athens h2 {
+  background-color: #6b979c;
+  border-radius: 10px;
+  color: #fdfdfd;
+  padding: 8px 14px;
+  text-shadow: 0 0 4px black;
+}
+
+#athens h1 {
+  font-size: 40px;
+}
+
+#athens h2 {
+  font-size: 30px;
+}
+
+.block {
+  display: block;
+}
+
+/* ACTIVITIES SECTION */
+.activity-section {
+  background-color: #e6e6eb;
+  padding: 5px;
+  color: #1f1f1f;
+}
+
+.activity-section h2 {
+  text-shadow: 0 0 4px white;
+  font-size: 30px;
+}
+
+.activities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.activity-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.activities-text-container {
+  height: 150px;
+  padding: 10px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 250px;
+}
+
+/* GUIDE-SECTION */
+.tour-guide {
+  margin: 25px auto;
+  display: flex;
+  max-width: 500px;
+  height: fit-content;
+  border-radius: 20px;
+  background-color: #6b979c;
+  border-bottom: 7px solid #99bfbf;
+}
+
+.guide-img {
+  margin: 15px;
+  width: 150px;
+  border-radius: 20px;
+}
+
+#guide-name {
+  font-size: 20px;
+}
+
+.guide-info {
+  padding: 15px 5px;
+  color: #1f1f1f;
+}
